@@ -5,15 +5,11 @@ package com.quackware.handsfreemusic;
  *  
  */
 
-import java.io.File;
 import java.net.MalformedURLException;
 import java.net.URL;
-import java.text.DateFormat;
-import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Collections;
-import java.util.Date;
 import java.util.List;
 
 import com.adwhirl.AdWhirlLayout;
@@ -36,7 +32,6 @@ import android.content.pm.ResolveInfo;
 import android.content.res.Resources;
 import android.database.Cursor;
 import android.database.sqlite.SQLiteDatabase;
-import android.database.sqlite.SQLiteException;
 import android.graphics.drawable.Drawable;
 import android.net.Uri;
 import android.os.Bundle;
@@ -47,7 +42,6 @@ import android.os.Message;
 import android.os.SystemClock;
 import android.provider.MediaStore;
 import android.speech.RecognizerIntent;
-import android.text.format.DateUtils;
 import android.util.DisplayMetrics;
 import android.util.Log;
 import android.view.ContextMenu;
