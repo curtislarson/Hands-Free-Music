@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <string name="app_name">Hands Free Music</string>
+
+<string name="preferences">Preferences</string>
+<string name="help">Help / FAQ</string>
+<string name="quit">Quit</string>
+
+<string-array name="shufflePrompt"></string-array>
+
+<string name="crashSubject">Crash Report - Hands Free Music</string>
+<string name="crashBody">Crash report dump from Hands Free Music</string>
+<string name="version">1.0.1</string>
+<string name="donate">Buy Ad Free Version</string>
+<string name="binds">Binds</string>
+
+</resources>

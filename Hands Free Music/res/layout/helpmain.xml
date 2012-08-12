@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+           
+<ScrollView 
+xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:fillViewport="true">
+<TableLayout
+android:layout_weight="1"
+android:orientation="vertical"
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent">
+<TableRow android:padding="20dip">
+<TextView 
+android:text="How To" 
+android:id="@+id/howTo" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:textSize="30dip">
+</TextView>
+</TableRow>
+
+<TableRow android:padding="20dip">
+<TextView 
+android:text="FAQ" 
+android:id="@+id/faq" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:textSize="30dip">
+</TextView>
+</TableRow>
+<TableRow android:padding="20dip">
+<TextView 
+android:text="Commands" 
+android:id="@+id/commands" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:textSize="30dip">
+</TextView>
+</TableRow>
+<TableRow android:padding="20dip">
+<TextView 
+android:text="Extras" 
+android:id="@+id/extras" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent"
+android:layout_weight="1"
+android:textSize="30dip">
+</TextView>
+</TableRow>
+
+</TableLayout>
+</ScrollView>

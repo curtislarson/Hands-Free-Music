@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+android:id="@+id/ScrollView01" android:fillViewport="true" 
+android:layout_width="fill_parent" 
+android:layout_height="fill_parent">
+<TableLayout 
+
+android:orientation="vertical"
+android:layout_width="fill_parent"
+android:layout_height="fill_parent"
+android:stretchColumns="1">
+    <TableRow>
+<CheckBox 
+android:text="Play All Song Results" 
+android:id="@+id/playAllSongResults" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="0px"
+android:width="0px"
+android:layout_weight="20" >
+</CheckBox>
+
+</TableRow>
+    <TableRow>
+<CheckBox 
+android:text="Play All Artist Results" 
+android:id="@+id/playAllArtistResults" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="0px"
+android:width="0px"
+android:layout_weight="20" >
+</CheckBox>
+
+</TableRow>
+    <TableRow>
+<CheckBox 
+android:text="Play All Album Results" 
+android:id="@+id/playAllAlbumResults" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="0px"
+android:width="0px"
+android:layout_weight="20" >
+</CheckBox>
+
+</TableRow>
+
+    <TableRow>
+<CheckBox 
+android:text="Play All Playlist Results" 
+android:id="@+id/playAllPlaylistResults" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="0px"
+android:width="0px"
+android:layout_weight="20" >
+</CheckBox>
+
+</TableRow>
+
+    <TableRow android:paddingTop="20dip">
+<CheckBox 
+android:text="Shuffle Multiple Results" 
+android:id="@+id/shuffleResults" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="0px"
+android:width="0px"
+android:layout_weight="20" >
+</CheckBox>
+
+</TableRow>
+<TableRow>
+<CheckBox 
+android:text="Always Play First Result" 
+android:id="@+id/playFirst"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="0px"
+android:width="0px"
+android:layout_weight="20" >
+</CheckBox>
+</TableRow>
+<TableRow>
+<CheckBox 
+android:text="Broad Search" 
+android:id="@+id/broadSearch"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="0px"
+android:width="0px"
+android:layout_weight="20" >
+</CheckBox>
+</TableRow>
+<TableRow android:paddingTop="20dip">
+<CheckBox 
+android:text="Show Welcome Screen" 
+android:id="@+id/showWelcome"
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="0px"
+android:width="0px"
+android:layout_weight="20" >
+</CheckBox>
+</TableRow>
+
+<TextView android:text="Note: Only rebuild song results after adding new songs to your library.">
+</TextView>
+<TableRow>
+<Button 
+android:text="Rebuild Song Index" 
+android:id="@+id/rebuild" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="20dp"
+android:width="0px"
+android:layout_weight="1">
+</Button>
+</TableRow>
+<TableRow android:paddingTop = "20dip">
+<Button 
+android:text="Save" 
+android:id="@+id/save" 
+android:layout_width="fill_parent" 
+android:layout_height="wrap_content"
+android:height="20dp"
+android:width="0px"
+android:layout_weight="1">
+</Button></TableRow>
+</TableLayout> 
+</ScrollView>  
